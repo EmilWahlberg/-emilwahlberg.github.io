@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #080d0a;
+}
+#showcase {
+  height: 850px;
+}
+
+.pic-container h1 {
+  color: #fff;
+  display: block;
+  position: absolute;
+  width: 700px;
+  right: 205px;
+  top: 300px;
+  font-size: 80px;
+}
+
+.sec-1 {
+  background: url("../img/jayson-hinrichsen-5K2okc1d5BM-unsplash.jpg") no-repeat
+    center center/cover;
+  height: 750px;
+  width: 750px;
+  position: absolute;
+  top: 200px;
+  right: 200px;
+  border-top-right-radius: 50%;
+  z-index: 5;
+}
+
+.over {
+  height: 350px;
+  width: 350px;
+  background-color: #4d60db;
+  position: absolute;
+  top: 150px;
+  right: 150px;
+  z-index: 10;
+  opacity: 0.9;
+}
+.over-2 {
+  height: 450px;
+  width: 450px;
+  background-color: #e9488b;
+  position: absolute;
+  top: 730px;
+  right: 50px;
+  z-index: 10;
+  opacity: 0.1;
+  border-radius: 50%;
+}
+
+.under {
+  height: 500px;
+  width: 500px;
+  background-color: #9f52db;
+  position: absolute;
+  top: 50px;
+  right: 600px;
+  opacity: 0.8;
+  z-index: 1;
+}
+.under-2 {
+  height: 500px;
+  width: 500px;
+  background-color: #4db8db;
+  position: absolute;
+  top: 650px;
+  right: 650px;
+  z-index: 1;
+}
+
+nav {
+  position: absolute;
+  right: 0;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  padding-right: 80px;
+}
+
+nav ul li {
+  padding: 10px;
+  list-style: none;
+  font-size: 30px;
+  font-family: Roboto;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+  padding: 2px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.text {
+  color: #fff;
+}
+
+#articles {
+  color: #fff;
+  position: relative;
+  text-align: center;
+  font-size: 30px;
+}
+#articles .content {
+  width: 800px;
+
+  position: absolute;
+  right: 200px;
+  top: 450px;
+  font-family: Oswald;
+}
+#articles .content h2 {
+  padding-bottom: 20px;
+}
